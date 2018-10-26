@@ -14,13 +14,14 @@
 // start your work here:
 function makeNegative (number) {
 
-
+    // Added the abs to return the same number as negative
 number = -1 * Math.abs(number)
 return number
 
 }
 // call your function here
 
+// calling all the functins in negative form
 console.log(makeNegative(-1))
 console.log(makeNegative(-5))
 console.log(makeNegative(0))
@@ -32,17 +33,25 @@ console.log(makeNegative(0.12))
   // For the beginner, try to use the map method - it comes in very handy quite a lot so is a good one to know.
   
   // write your function here
-  
+var array1 = [1, 4, 9, 16]; 
+const map1 = array1.map(x => x * 2); 
   // call your function here
   
-  
+console.log(map1);
+
+
   // 3. You will be given an array (a) and a value (x). All you need to do is check whether the provided array contains the value.
   // Array can contain numbers or strings. X can be either. Return true if the array contains the value, false if not.
   
   // write your function here
-  
+
+  // pass a function to map
+
   // call your function here
-  
+
+  // expected output: Array [2, 8, 18, 32]
+
+
   // 4. Bonus Exercise 
   // Life isn't always easy as a small word amongst big words. If only they had a code warrior to help them out...
   
